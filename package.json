@@ -1,22 +1,22 @@
 {
-  "name": "tratratra",
+  "name": "sfsdfsf",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "description": "",
   "devDependencies": {
-    "webpack": "^3.1.0",
-    "webpack-cli": "^5.1.4"
-  },
-  "dependencies": {
-    "css-loader": "^6.8.1",
-    "node-sass": "^9.0.0",
-    "sass-loader": "^13.3.2",
-    "style-loader": "^3.3.3"
+    "@babel/core": "^7.22.5",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2"
   }
 }
